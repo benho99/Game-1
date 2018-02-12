@@ -17,11 +17,11 @@ public class PacMan extends Figuren{
 	public void set_mund_offen(boolean newMund_offen) {this.mund_offen = newMund_offen;}
 	public void set_kontakt_mit_geist(boolean newKontakt_mit_geist) {this.kontakt_mit_geist = newKontakt_mit_geist;}
 	
-	public int get_Winkel_min() {return Winkel_min;}
-	public int get_Winkel_max() {return Winkel_max;}
-	public int get_leben() {return leben;}
-	public boolean get_mund_offen() {return mund_offen;}
-	public boolean get_kontakt_mit_geist() {return kontakt_mit_geist;}
+	public int get_Winkel_min() {return this.Winkel_min;}
+	public int get_Winkel_max() {return this.Winkel_max;}
+	public int get_leben() {return this.leben;}
+	public boolean get_mund_offen() {return this.mund_offen;}
+	public boolean get_kontakt_mit_geist() {return this.kontakt_mit_geist;}
 
 	
 	// Leben verlieren Funktion
